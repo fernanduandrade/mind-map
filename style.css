@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;1,700&display=swap');
+
+:root {
+  --background-color : #FFFFFF;
+  --font-color: rgb(61, 71, 77);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: 'Nunito', sans-serif;
+}
+
+body {
+  background-color: var(--background-color);
+}
+
+#container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#wrapper {
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+}
+
+.node-map {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 30px;
+  background-color: #782bf1;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+#main__map {
+
+}
+
+.menu {
+  border: 1px solid blue;
+}
